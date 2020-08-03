@@ -1,0 +1,30 @@
+<form action="/predict/" >
+        <label for="blueWardsPlaced">blueWardsPlaced</label> <br>
+        <input id="blueWardsPlaced" name="blueWardsPlaced" type="number"><br>
+        <label for="blueWardsDestroyed">blueWardsDestroyed</label> <br>
+        <input id="blueWardsDestroyed" name="blueWardsDestroyed" type="number"><br>
+        <label for="blueFirstBlood">blueFirstBlood</label> <br>
+        <input id="blueFirstBlood" name="blueFirstBlood" type="number"><br>
+        <label for="blueDragons">blueDragons</label> <br>
+        <input id="blueDragons" name="blueDragons" type="number"/><br>
+        <label for="blueHeralds">blueHeralds</label> <br>
+        <input id="blueHeralds" name="blueHeralds" type="number"><br>
+        <label for="blueTowersDestroyed">blueTowersDestroyed</label> <br>
+        <input id="blueTowersDestroyed" name="blueTowersDestroyed" type="number"><br>
+        <label for="blueGoldDiff">blueGoldDiff</label> <br>
+        <input id="blueGoldDiff" name="blueGoldDiff" type="number"><br>
+        <label for="blueExperienceDiff">blueExperienceDiff</label> <br>
+        <input id="blueExperienceDiff" name="blueExperienceDiff" type="number"><br>
+        <label for="redWardsPlaced">redWardsPlaced</label> <br>
+        <input id="redWardsPlaced" name="redWardsPlaced" type="number"><br>
+        <label for="redWardsDestroyed">redWardsDestroyed</label> <br>
+        <input id="redWardsDestroyed" name="redWardsDestroyed" type="number"><br>
+        <label for="redDragons">redDragons</label> <br>
+        <input id="redDragons" name="redDragons" type="number"><br>
+        <label for="redHeralds">redHeralds</label> <br>
+        <input id="redHeralds" name="redHeralds" type="number"><br>
+        <label for="redTowersDestroyed">redTowersDestroyed</label> <br>
+        <input id="redTowersDestroyed" name="redTowersDestroyed" type="number"><br><br>
+        <input type="submit" class="btn btn-primary btn-xl"> <br>
+    </form>
+    <p>Prediction: {{prediction}}</p>
